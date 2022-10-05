@@ -15,3 +15,8 @@
 4. Where are the internals of the repository stored? Paste the output of the following command on macOS & Linux.
 
         ls -lA
+        
+        Output:
+        
+        total 4
+        drwxr-xr-x 1 Brandon 197121 0 Oct  4 21:43 .git/
