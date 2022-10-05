@@ -14,6 +14,7 @@
 
 4. Why did we use the `--global` flag?  (What does that do?)
 
+        The --global flag sets the level of the configuration to the whole machine, rather than the repository where git config is invoked.
 
 5. Check your git config to show the changes you have made
 
