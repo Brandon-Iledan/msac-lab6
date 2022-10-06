@@ -1,3 +1,6 @@
 celery
 onion
 turnip
+carrot
+potato
+garlic
