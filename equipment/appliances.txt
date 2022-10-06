@@ -3,4 +3,3 @@ chiller
 transmedium toaster oven
 dishwasher
 electric kettle
-coffee grinder
