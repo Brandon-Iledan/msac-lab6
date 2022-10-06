@@ -105,16 +105,55 @@
 10. What do these commands show?
 
         git diff
+                Too long to copy/paste. Only shows changes to exercise08.md, but not the two /equipment files I edited.
+
         git diff --staged
+                diff --git a/equipment/appliances.txt b/equipment/appliances.txt
+                index a803246..244aebc 100644
+                --- a/equipment/appliances.txt
+                +++ b/equipment/appliances.txt
+                @@ -2,5 +2,4 @@ boiler
+                 chiller
+                 transmedium toaster oven
+                 dishwasher
+                -electric kettle
+                -coffee grinder
+                \ No newline at end of file
+                +electric kettle
+                \ No newline at end of file
+                diff --git a/equipment/furniture.txt b/equipment/furniture.txt
+                index c7b774b..f712368 100644
+                --- a/equipment/furniture.txt
+                +++ b/equipment/furniture.txt
+                @@ -1,3 +1,4 @@
+                 futon
+                 couch
+                -Herman Miller Aeron Chair
+                \ No newline at end of file
+                +Herman Miller Aeron Chair
+                +side table
+                \ No newline at end of file
 
 11. Commit the changes
 
 12. Check that your working directory is clean
+
+        git status
+
+        Output:
+
+        On branch main
+        Your branch is ahead of 'origin/main' by 9 commits.
+        (use "git push" to publish your local commits)
+
+        nothing to commit, working tree clean
 
 13. Create a new file named `clothing.txt`
 
 14. Does the new untracked file show up in git diff?
 
         git diff
+
+        No output, the untracked file does not show up.
 
 15. Add and commit the new file
